@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Quote-Generator-With-React/static/css/main.5a745806.chunk.css",
-    "main.js": "/Quote-Generator-With-React/static/js/main.d6a8fa20.chunk.js",
-    "main.js.map": "/Quote-Generator-With-React/static/js/main.d6a8fa20.chunk.js.map",
+    "main.js": "/Quote-Generator-With-React/static/js/main.4af4ae3c.chunk.js",
+    "main.js.map": "/Quote-Generator-With-React/static/js/main.4af4ae3c.chunk.js.map",
     "runtime-main.js": "/Quote-Generator-With-React/static/js/runtime-main.c0ed9ee9.js",
     "runtime-main.js.map": "/Quote-Generator-With-React/static/js/runtime-main.c0ed9ee9.js.map",
     "static/js/2.78a9ce5a.chunk.js": "/Quote-Generator-With-React/static/js/2.78a9ce5a.chunk.js",
     "static/js/2.78a9ce5a.chunk.js.map": "/Quote-Generator-With-React/static/js/2.78a9ce5a.chunk.js.map",
     "index.html": "/Quote-Generator-With-React/index.html",
-    "precache-manifest.e4504c46deac48d1102a6b663b47d1ac.js": "/Quote-Generator-With-React/precache-manifest.e4504c46deac48d1102a6b663b47d1ac.js",
+    "precache-manifest.9c568ad21841cfbbc663af4b7e3b2a80.js": "/Quote-Generator-With-React/precache-manifest.9c568ad21841cfbbc663af4b7e3b2a80.js",
     "service-worker.js": "/Quote-Generator-With-React/service-worker.js",
     "static/css/main.5a745806.chunk.css.map": "/Quote-Generator-With-React/static/css/main.5a745806.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.c0ed9ee9.js",
     "static/js/2.78a9ce5a.chunk.js",
     "static/css/main.5a745806.chunk.css",
-    "static/js/main.d6a8fa20.chunk.js"
+    "static/js/main.4af4ae3c.chunk.js"
   ]
 }
