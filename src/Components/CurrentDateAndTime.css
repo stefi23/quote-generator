@@ -1,0 +1,11 @@
+.time {
+    font-size: 46px;
+}
+
+.date {
+    font-family:'Alata', sans-serif;
+    letter-spacing: 0.2em;
+    font-size:larger;
+    color:#e6e6e6;
+    
+}

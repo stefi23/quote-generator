@@ -15,16 +15,23 @@ body {
   }
   
   .button {
-    background-color: #e6e6e6 !important;
+    background-color: #5F021F!important;
     border-color: #d9d9d9;
-    color: #5F021F
+    color: #e6e6e6
   }
   
   .button:hover {
     color: #e6e6e6 !important ;
     background-color: #5F021F !important;
-    border-color: #0062cc !important;
+    border-color: navy !important;
   }
   
   .button:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(228, 152, 226, 0.5);}
+
+  .quote {
+    font-family: 'Alata', sans-serif;
+    font-size:25px;
+    font-weight: 500;
+
+  }

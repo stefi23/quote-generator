@@ -1,4 +1,6 @@
 import React, { PureComponent } from 'react'
+import './CurrentDateAndTime.css';
+
 
 class CurrentDateAndTime extends PureComponent {
     // state = {
@@ -24,15 +26,18 @@ class CurrentDateAndTime extends PureComponent {
     tic = () => {
        this.setState(() => {
         const now = new Date ();
-        const day = now.getDay();
+        const date = now.getDate();
         const month = now.getMonth() + 1;
         const year = now.getFullYear();
         const hours = now.getHours();
         const minutes = now.getMinutes();
         const seconds = now.getSeconds();
+        const day = now.getDay();
+        const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
 
         return {
-            date: `${day}/${month}/${year}`,
+            date: `${weekDays[day]}| ${date}/${month}/${year}`,
             time: `${hours}:${minutes}:${seconds}`
         }
         // day/month/year
@@ -45,18 +50,18 @@ class CurrentDateAndTime extends PureComponent {
     render(){
         const {date,time} = this.state;
         return(
-            <div className="container">
+            <div className="pt-5">
                 <div className='row'>
-                <div className='col-6 offset-3 text-danger'>
-                Date: {date}  
+                <div className='col-6 offset-3 date'>
+                {date}  
                 </div>
                 </div>
                 <div className='row'>
-                <div className='col-6 offset-3 text-danger'>
-                Time: {time}    
+                <div className='col-6 offset-3 text-white time'>
+                {time}    
                 </div>
                 </div>
-                <hr size="30" /> 
+                <hr size="30" color="white" /> 
             </div>
         )
     }

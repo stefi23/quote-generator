@@ -21,7 +21,7 @@ constructor(props){
 super(props)
 this.state = {
 quoteGenerated: '',
-i: 0
+i: 1
 }
 }
 
@@ -43,21 +43,15 @@ quoteGenerated,
 }
 
 render(){
-const {quoteGenerated} = this.state
+const {quoteGenerated, i} = this.state
 // const quoteGenerated = this.state.quoteGenerated;
 
 return(
 <div className="content text-center position-relative">
-
-    <div className="row">
-      <div className="col-12 mt-5">
-        <h1>Random Quote Generator</h1>
-      </div>
-    </div>
    
     <div className="row ">
-    <div className="col-6 offset-3 bg-white p-4 rounded-corners" >
-        <div className="mb-4">{quoteGenerated}</div>
+    <div className="col-10 offset-1 p-4 rounded-corners" >
+<div className="mb-4 text-white quote">{quoteGenerated ? quoteGenerated : quotes[0]}</div>
         <button className="btn button !important" 
          onClick ={this.generateQuote}>Generate Quote       
         </button>
