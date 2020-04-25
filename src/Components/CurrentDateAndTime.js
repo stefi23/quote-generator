@@ -2,15 +2,11 @@ import React, { PureComponent } from "react";
 import "./CurrentDateAndTime.css";
 
 class CurrentDateAndTime extends PureComponent {
-  // state = {
-  //     date: 'day',
-  //     time: 'Now'
-  // }
   constructor(props) {
     super(props);
     this.state = {
       date: "day",
-      time: "Now"
+      time: "Now",
     };
   }
 
@@ -47,12 +43,12 @@ class CurrentDateAndTime extends PureComponent {
         "Wednesday",
         "Thursday",
         "Friday",
-        "Saturday"
+        "Saturday",
       ];
 
       return {
         date: `${weekDays[day]}| ${date}/${month}/${year}`,
-        time: `${hours}:${minutes}:${seconds}`
+        time: `${hours}:${minutes}:${seconds}`,
       };
     });
   };
