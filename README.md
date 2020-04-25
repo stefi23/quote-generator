@@ -2,25 +2,9 @@
 
 > A website on which you can get on a new quote for each button click. (limited to the quotes that are saved)
 >
-> [Live demo](http://stefi.codes/Schere-Stein-Papier/)
+> [Live demo](https://stefi.codes/quote-generator/)
 
-![Starting game screenshot](./src/images/PreviewGame.jpg)
-
-Results page:
-
-![Example from play screenshot](./src/images/Play.png)
-
-![Example from play screenshot](./src/images/Finish.png)
-
-## How it works
-
-In order to play click of the emojis to pick your choice.
-
-Rock: ✊  
-Paper: ✋  
-Scissors: ✌️
-
-After 3 seconds you will find out if you won.
+![Quote Generator Screenshot](./src/images/quote-generator.png)
 
 ## Technologies
 
@@ -32,7 +16,7 @@ This app was build with:
 ## Install and Play
 
 ```
-git clone https://github.com/stefi23/Schere-Stein-Papier.git
+git clone https://github.com/stefi23/quote-generator.git
 $ cd Schere-Stein-Papier
 $ npm install
 $ npm start

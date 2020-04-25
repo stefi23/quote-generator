@@ -44,7 +44,7 @@ class QuoteGenerator extends Component {
       if (i === quotes.length) {
         i = 0;
       }
-
+      console.log(quotes.length);
       const quoteGenerated = quotes[i];
       i++;
 
