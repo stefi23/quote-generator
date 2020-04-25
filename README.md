@@ -1,8 +1,8 @@
 # Quote Generator
 
-> A website on which you can get on a new quote for each button click. (limited to the quotes that are saved)
+> A website on which you can get on a new quote for each button click. (limited to the quotes that are saved in the library.)
 >
-> [Live demo](https://stefi.codes/quote-generator/)
+> 👉 [Live demo](https://stefi.codes/quote-generator/)
 
 ![Quote Generator Screenshot](./src/images/quote-generator.png)
 
